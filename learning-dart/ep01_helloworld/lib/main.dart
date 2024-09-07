@@ -5,5 +5,6 @@ void main(List<String> args) {
   print("${calculator.digit1} + ${calculator.digit2} = ${calculator.add()}");
   print("${calculator.digit1} - ${calculator.digit2} = ${calculator.substract()}");
   print("${calculator.digit1} * ${calculator.digit2} = ${calculator.multiply()}");
-
+  var symbol = #hello;
+  print(symbol);
 }
